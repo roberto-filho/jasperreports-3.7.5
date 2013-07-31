@@ -2,9 +2,32 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jasperrports jar
 Bundle-SymbolicName: br.com.gtech.jasperrports
-Bundle-Version: 3.7.5
-Bundle-ClassPath: .
-Export-Package: net.sf.jasperreports.ant,
+Bundle-Version: 3.7.5.1
+Bundle-ClassPath: .,
+ lib/iText-2.1.7.jar,
+ lib/iTextAsian.jar
+Export-Package: com.lowagie.text,
+ com.lowagie.text.exceptions,
+ com.lowagie.text.factories,
+ com.lowagie.text.html,
+ com.lowagie.text.html.simpleparser,
+ com.lowagie.text.pdf,
+ com.lowagie.text.pdf.codec,
+ com.lowagie.text.pdf.codec.wmf,
+ com.lowagie.text.pdf.collection,
+ com.lowagie.text.pdf.crypto,
+ com.lowagie.text.pdf.draw,
+ com.lowagie.text.pdf.events,
+ com.lowagie.text.pdf.fonts.cmaps,
+ com.lowagie.text.pdf.hyphenation,
+ com.lowagie.text.pdf.interfaces,
+ com.lowagie.text.pdf.internal,
+ com.lowagie.text.pdf.parser,
+ com.lowagie.text.xml,
+ com.lowagie.text.xml.simpleparser,
+ com.lowagie.text.xml.xmp,
+ com.lowagie.tools,
+ net.sf.jasperreports.ant,
  net.sf.jasperreports.charts,
  net.sf.jasperreports.charts.base,
  net.sf.jasperreports.charts.design,
